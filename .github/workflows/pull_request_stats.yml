@@ -36,6 +36,7 @@ jobs:
     needs: build
     timeout-minutes: 25
     runs-on:
+      - 'ubuntu-latest'
       - 'self-hosted'
       - 'linux'
       - 'x64'
